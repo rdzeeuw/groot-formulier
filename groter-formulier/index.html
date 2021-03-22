@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+ <html>
+        <head>
+          <link rel="stylesheet" type="text/css" href="style.css">
+     <!-- hier zet je de code in de head tags -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Della+Respira&display=swap" 
+rel="stylesheet"><title> WINC Academy - groot formulier </title>
+        </head>
+
+        <body>
+            <form name="recept" method="POST" data-netlify="true" >
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Enter name"  />
+                <br><br>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Enter email" />
+                <br><br>
+
+                <label for="telephone">Telephone number</label>
+                <input type="tel" name="telephone" placeholder="Enter telephone number" />
+                <br><br>
+
+                <label for="age">Age</label>
+                <input type="number" name="age" placeholder="Enter age" min="0" max="120" />
+
+                <label for="birth">Date of birth</label>
+                <input type="date" name="birth" min="01/01/1900" /><br><br>
+                
+                <label for="gender"> Gender</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br><br>
+
+                <label for="cuisine"> Favorite cuisine</label><br>
+                <input type="checkbox" id="french" name="cuisine" />
+                <label for="french">French</label>
+                <input type="checkbox" id="italian" name="cuisine" />
+                <label for="italian">Italian</label>
+                <input type="checkbox" id="spanish" name="cuisine" />
+                <label for="spanish">Spanish</label>
+                <input type="checkbox" id="arabic" name="cuisine" />
+                <label for="arabic">Arabic</label><br><br>
+
+                <label for="color">Favorite color apron</label><br>
+                <input type="color" name="color" /><br><br>
+
+                <label for="bio">Biography</label><br>
+                <textarea name="bio" rows="10" columns="30">
+                    Write something about yourself...
+                </textarea><br><br>
+
+                <label for="upload">Upload your last receipe</label><br>
+                <input type="file" name="upload" /><br><br>
+
+                <label for="link">Link to receipe website (URL)</label><br>
+                <input type="url" name="link"><br><br>
+
+                <input type="reset" name="reset">
+                <input type="submit" name="submit">
+
+        </form>
+
+
+
+
+        </body>
+</html>
